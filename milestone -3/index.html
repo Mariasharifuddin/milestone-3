@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Dynamic Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>𝔇𝔶𝔫𝔞𝔪𝔦𝔠 ℜ𝔢𝔰𝔲𝔪𝔢 𝔅𝔲𝔦𝔩𝔡𝔢𝔯 𝔅𝔶 𝔐𝔞𝔯𝔦𝔶𝔞 𝔖𝔥𝔞𝔯𝔦𝔣</h1>
+    <form id="resumeForm">
+        <fieldset>
+            <legend>Ⓟⓔⓡⓢⓞⓝⓐⓛ Ⓘⓝⓕⓞⓡⓜⓐⓣⓘⓞⓝ</legend>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+<label for="email">Email:</label><br>
+<input type="email" id="email" name="email"required><br>
+
+<label for="phone">Phone:</label><br>
+<input type="tel"id="phone"name="phone"required>
+
+        </fieldset>
+        <fieldset>
+            <legend>Ⓔⓓⓤⓒⓐⓣⓘⓞⓝ</legend>
+            <label for="Education">Education</label>
+            <textarea id="education" name="education" rows="4" required></textarea><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Ⓔⓧⓟⓔⓡⓘⓔⓝⓒⓔ</legend>
+            <label for="experience">Experience</label>
+            <textarea id="experience" name="experience" rows="4" required></textarea><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Ⓢⓚⓘⓛⓛⓢ</legend>
+            <label for="skills">skills</label>
+            <textarea id="skills" name="skills" rows="4" required></textarea><br>
+        </fieldset>
+
+   <button type="submit">ⒼⒺⓃⒺⓇⒶⓉⒺ ⓇⒺⓈⓊⓂⒺ ⒷⒺⓁⓄⓌ</button>
+    </form>
+    <div id="resumeOutput">
+        <!--Resume will be Generated below-->        
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
